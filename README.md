@@ -88,10 +88,11 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 
 ---
 
-## 📫 Me contacter
-- ✉️ Email : [salemlukau43@gmail.com](mailto:salemlukau43@gmail.com)  
-- 🔗 LinkedIn : [Salem LUKAU MAKIESE](https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/)  
+## 📫 Contact
+- Email : [salemlukau43@gmail.com](mailto:salemlukau43@gmail.com)  
+- LinkedIn : [Mon Profil LinkedIn](https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/)  
 - 🧠 Portfolio : [GitHub Pages – Présentation](https://peace-salem.github.io/presentation-salem/)
+
 
 ---
 
