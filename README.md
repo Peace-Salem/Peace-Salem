@@ -77,13 +77,13 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 
 ---
 
-### 🤖 [Prediction de l'intention d'achat](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/prediction_intention_achat)
+### 🤖 [Prediction de l'intention d'achat](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/Prédiction de l’intention d’achat)
 **Description :** Modélisation prédictive du comportement client à partir de données transactionnelles.  
 - Utilisation de **Machine Learning supervisé** pour classification et scoring.  
 > **Pertinence pour le profil :** Modélisation prédictive et décision basée sur les données, compétence clé en actuariat et marketing analytique.
 
 ---
-### 🤖 [Stochastique : Système d’attente dansun magasin de reparationd’instruments de musique](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/stochastique_salle_entente) 
+### 🤖 [Stochastique : Système d’attente dansun magasin de reparationd’instruments de musique](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/stochastique_temps_entente) 
 **Description :** Étude d’un système d’attente réel modélisé à l’aide de processus stochastiques.
 - Modélisation avec le **système M/M/1** : arrivées aléatoires (Poisson), durées de service exponentielles, capacité théorique infinie.
 - Calcul des indicateurs clés : taux d’occupation, temps moyen dans le système et en file d’attente, nombre moyen de clients.
@@ -102,7 +102,7 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 
 ### 🔍 Autres Projets Académiques
 
-- [Data Mining JNNET](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/data-mining_JNNET) – Extraction et analyse de données complexes (R, statistiques).   
+- [Data Mining JNNET](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/data_mining_JNNET) – Extraction et analyse de données complexes (R, statistiques).   
 - [Programmation contrainte salle cours](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/programmation_contrainte_salle_cours) – Planification horaire avec Choco Solver.  
 - [Projet Easy.py](https://github.com/Peace-Salem/soumission-python)- - Résolution de modèles d’optimisation complexes et automatisation des tests.  
 
