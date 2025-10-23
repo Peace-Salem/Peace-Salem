@@ -3,54 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Présentation Salem</title>
+    <title>Salem LUKAU MAKIESE – Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
         body {
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             background: linear-gradient(135deg, #1e90ff, #00bfff);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            color: white;
+            color: #fff;
+            line-height: 1.6;
         }
 
         .container {
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 20px;
-            padding: 40px;
-            max-width: 700px;
-            text-align: center;
+            backdrop-filter: blur(10px);
             box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            opacity: 0;
-            transform: translateY(50px);
-            animation: fadeInUp 1s forwards;
         }
 
-        @keyframes fadeInUp {
-            to { opacity: 1; transform: translateY(0); }
+        h1, h2, h3 {
+            text-align: center;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
         }
 
-        h1 { font-size: 2.2em; margin-bottom: 10px; }
-        h2 { font-weight: 400; margin-top: 0; margin-bottom: 20px; }
-        h3 { margin-bottom: 10px; }
-        p, li { font-size: 1em; line-height: 1.5; margin-bottom: 10px; text-align: left; }
-        ul { text-align: left; padding-left: 20px; }
-        a { color: #fff; text-decoration: none; margin: 0 5px; transition: transform 0.2s; }
-        a:hover { transform: scale(1.1); }
+        h1 { font-size: 2.5em; margin-bottom: 10px; }
+        h2 { font-size: 2em; margin-top: 40px; margin-bottom: 20px; }
+        h3 { font-size: 1.5em; margin-top: 20px; margin-bottom: 10px; }
+
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+
+        a { color: #fff; text-decoration: none; transition: transform 0.2s; }
+        a:hover { transform: scale(1.05); color: #ffeb3b; }
+
+        .badges { text-align: center; margin-bottom: 20px; }
         .badges img { margin: 5px; vertical-align: middle; }
-        .stats { margin-top: 20px; }
+
+        .stats img { display: block; margin: 20px auto; border-radius: 10px; }
+
+        .section { margin-bottom: 30px; }
+
+        p { margin-bottom: 10px; }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Salut ! 👋 Je suis Salem</h1>
-
+        <h1>👋 Salut ! Je suis <strong>Salem LUKAU MAKIESE</strong></h1>
         <div class="badges">
             <a href="https://github.com/Peace-Salem">
                 <img src="https://img.shields.io/github/followers/Peace-Salem?label=Follow&style=social" alt="GitHub followers">
@@ -58,43 +60,105 @@
             <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">
                 <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn">
             </a>
+            <a href="https://peace-salem.github.io/presentation-salem/">
+                <img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-1e90ff?logo=github" alt="Portfolio">
+            </a>
         </div>
 
-        <h2>🎓 À propos de moi</h2>
-        <ul>
-            <li>Étudiant en Master 2 Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales, Actuariat & Ingénierie de données</li>
-            <li>Passionné par Python, R, SQL, Machine Learning et IA</li>
-            <li>Basé en France et en République Démocratique du Congo</li>
-        </ul>
+        <div class="section">
+            <h2>🎓 À propos de moi</h2>
+            <p>Étudiante en <strong>Master 2 MIASHS</strong> – parcours <strong>Actuariat & Ingénierie de Données</strong>, passionnée par la valorisation des données, la modélisation prédictive et le développement d’outils intelligents alliant mathématiques, informatique et finance.</p>
+            <p>💡 Mon objectif : allier <strong>rigueur scientifique</strong> et <strong>innovation technologique</strong> pour contribuer à des projets à fort impact dans la <strong>data science</strong>, l’<strong>actuariat</strong> et l’<strong>intelligence artificielle</strong>.</p>
+            <p>🌍 Basée entre <strong>la France</strong> et la <strong>République Démocratique du Congo</strong>.</p>
+        </div>
 
-        <h2>💻 Projets récents</h2>
-        <h3><a href="https://github.com/Peace-Salem/flop15">Flop 15</a></h3>
-        <ul>
-            <li>Suivi de bilan portefeuille</li>
-            <li>Manipulation des données de contrats des agents</li>
-            <li>Calcul des indicateurs clés et création d’un reporting</li>
-        </ul>
-        <h3><a href="https://github.com/Peace-Salem/neurocognitive-graph">Analyse Neurocognitive</a></h3>
-        <p>Graphes probabilistes appliqués au parcours scolaire d’enfants traités pour des méduloblastomes.</p>
-        <h3><a href="https://github.com/Peace-Salem/soumission-python">Projet Easy.py</a></h3>
-        <p>Script Python simple utilisant Gurobi pour vérification automatique.</p>
+        <div class="section">
+            <h2>💼 Stages & Expériences Clés</h2>
 
-        <h2>🛠️ Compétences techniques</h2>
-        <ul>
-            <li><strong>Langages :</strong> Python, R, SQL, Java, HTML, CSS, PHP</li>
-            <li><strong>Outils :</strong> Git, Power BI, Anaconda, Eclipse</li>
-            <li><strong>Data Science & IA :</strong> Machine Learning, Deep Learning (TensorFlow, Keras, PyTorch), MLOps</li>
-            <li><strong>Autres :</strong> Optimisation combinatoire, Graphes probabilistes</li>
-        </ul>
+            <h3>🟦 <a href="https://github.com/Peace-Salem/flop15">Flop 15 – GENERALI France</a></h3>
+            <ul>
+                <li>Nettoyage et traitement des données de contrats d’assurance</li>
+                <li>Calcul et suivi des KPI : S/P, fréquence, coût moyen, taux de résiliation</li>
+                <li>Reporting automatisé via <strong>Power BI</strong></li>
+                <li>Analyse de l’efficacité des plans d’action sur 36 mois</li>
+            </ul>
+            <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_generali.pdf">Télécharger le rapport GENERALI</a></p>
 
-        <h2>📫 Contact</h2>
-        <ul>
-            <li>Email : <a href="mailto:salemlukau43@gmail.com">salemlukau43@gmail.com</a></li>
-            <li>LinkedIn : <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">Mon Profil LinkedIn</a></li>
-        </ul>
+            <h3>🏦 <a href="https://github.com/Peace-Salem/neurocognitive-graph">Data Scientist – Rawbank RDC</a></h3>
+            <ul>
+                <li>Exploration et nettoyage de données internes</li>
+                <li>Détection d’anomalies et modélisation par <strong>régression linéaire</strong></li>
+                <li>Reporting automatisé en Python</li>
+            </ul>
 
-        <div class="stats">
+            <h3>🧠 <a href="https://github.com/Peace-Salem/neurocognitive-graph">Analyse Neurocognitive – CRCM Marseille</a></h3>
+            <ul>
+                <li>Graphes probabilistes et modèles bayésiens</li>
+                <li>Analyse des relations cognition-scolarité</li>
+                <li>Visualisation des réseaux et identification des facteurs influençant l’état neurocognitif</li>
+            </ul>
+            <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_crcm.pdf">Télécharger le rapport CRCM</a></p>
+        </div>
+
+        <div class="section">
+            <h2>💻 Projets Académiques Marquants</h2>
+
+            <h3>🔍 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/analyse_de_sentiment">Analyse de sentiment</a></h3>
+            <p>Classification automatique des émotions exprimées dans des tweets via <strong>NLP et Machine Learning</strong> en Python.</p>
+
+            <h3>📊 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/optimisation_combinatoire">Optimisation combinatoire</a></h3>
+            <p>Planification multi-année de projets avec contraintes budgétaires et coûts non linéaires.</p>
+
+            <h3>🤖 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/prediction_intention_achat">Prediction de l'intention d'achat</a></h3>
+            <p>Modélisation prédictive du comportement client via <strong>Machine Learning supervisé</strong>.</p>
+
+            <h3>🤖 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/stochastique_temps_entente">Système d’attente – magasin de réparation</a></h3>
+            <p>Étude d’un système d’attente réel via processus stochastiques <strong>M/M/1</strong>.</p>
+
+            <h3>♟️ <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/jeu_hex">Jeu de Hex – Java</a></h3>
+            <p>Implémentation d’un jeu de stratégie avec IA intégrée (Minimax et heuristiques).</p>
+
+            <h3>🔍 Autres Projets Académiques</h3>
+            <ul>
+                <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/data_mining_JNNET">Data Mining JNNET</a> – Extraction et analyse de données complexes (R, statistiques)</li>
+                <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/programmation_contrainte_salle_cours">Programmation contrainte salle cours</a> – Planification horaire avec Choco Solver</li>
+                <li><a href="https://github.com/Peace-Salem/soumission-python">Projet Easy.py</a> – Résolution de modèles d’optimisation complexes et automatisation des tests</li>
+                <li><a href="https://github.com/Peace-Salem/business-game">Business Game – Simulation d’entreprise</a> – Gestion de cycles décisionnels et suivi des résultats (SQL, Python)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Compétences techniques</h2>
+            <ul>
+                <li><strong>Langages :</strong> Python, R, SQL, Java, HTML, CSS, PHP</li>
+                <li><strong>Outils & Logiciels :</strong> Git, Power BI, Anaconda, Eclipse, VS Code</li>
+                <li><strong>Data Science & IA :</strong> Machine Learning, Deep Learning (TensorFlow, Keras, PyTorch), MLOps</li>
+                <li><strong>Autres :</strong> Optimisation combinatoire, Graphes probabilistes, Statistiques appliquées</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎯 Objectifs & Centres d’intérêt</h2>
+            <ul>
+                <li>📈 Actuariat & Finance durable : intégration des critères ESG dans la gestion d’actifs</li>
+                <li>🧮 Mathématiques appliquées : modélisation et simulation de systèmes complexes</li>
+                <li>🤝 Innovation & Impact : participation à des projets technologiques à vocation sociale</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📫 Contact</h2>
+            <ul>
+                <li>Email : <a href="mailto:salemlukau43@gmail.com">salemlukau43@gmail.com</a></li>
+                <li>LinkedIn : <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">Mon Profil LinkedIn</a></li>
+                <li>Portfolio : <a href="https://peace-salem.github.io/presentation-salem/">GitHub Pages – Présentation</a></li>
+            </ul>
+        </div>
+
+        <div class="section stats">
+            <h2>📈 Statistiques GitHub</h2>
             <img src="https://github-readme-stats.vercel.app/api?username=Peace-Salem&show_icons=true&theme=radical" alt="GitHub stats">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Peace-Salem&layout=compact&theme=radical" alt="Top Langs">
         </div>
     </div>
 </body>
