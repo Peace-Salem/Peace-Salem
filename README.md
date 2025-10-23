@@ -77,7 +77,7 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 
 ---
 
-### 🤖 [Prediction de l'intention d'achat](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/Prédiction de l’intention d’achat)
+### 🤖 [Prediction de l'intention d'achat](https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/prediction_intention_achat)
 **Description :** Modélisation prédictive du comportement client à partir de données transactionnelles.  
 - Utilisation de **Machine Learning supervisé** pour classification et scoring.  
 > **Pertinence pour le profil :** Modélisation prédictive et décision basée sur les données, compétence clé en actuariat et marketing analytique.
