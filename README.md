@@ -19,7 +19,7 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 
 ## 💼 Stages & Expériences
 
-### 🟦 [Flop 15 – GENERALI France](https://github.com/Peace-Salem/flop15)
+### 🟦 [Flop 15 – GENERALI France](https://github.com/Peace-Salem/RapportsStagesEtProjets)
 **Objectif :** Étude et suivi du plan d’action pour les agents à faible performance.  
 **Contexte :** Stage au sein de la **Direction Données & Approche Client** (2025).  
 - Manipulation et nettoyage de données de contrats  
@@ -27,19 +27,21 @@ je m’intéresse à la **valorisation des données** dans la prise de décision
 - Suivi des plans d’action et reporting Power BI  
 - Analyse des évolutions de performances sur 12 mois  
 
-📄 [Télécharger le rapport complet (PDF)](./rapport_de_stage_Salem_Lukau.pdf)
+📄 [Télécharger le rapport GENERALI](RapportStage/rapport_stage_generali.pdf)
 
 ---
 
-### 🧠 [Analyse Neurocognitive – CRCM Marseille](https://github.com/Peace-Salem/neurocognitive-graph)
+### 🧠 [Analyse Neurocognitive – CRCM Marseille](https://github.com/Peace-Salem/RapportsStagesEtProjets)
 **Thème :** Modélisation par **graphes probabilistes** du parcours scolaire d’enfants traités pour des méduloblastomes.  
 - Application de modèles bayésiens  
 - Exploration des relations entre cognition et scolarité  
 - Étude réalisée dans le cadre du **Centre de Recherche en Cancérologie de Marseille (2023)**  
 
+📄 [Télécharger le rapport CRCM](RapportStage/rapport_stage_crcm.pdf)
+
 ---
 
-### 🏦 [Data Scientist – Rawbank RDC](https://github.com/Peace-Salem/neurocognitive-graph)
+### 🏦 [Data Scientist – Rawbank RDC](https://github.com/Peace-Salem/)
 **Mission :** Analyse interne de la performance des services bancaires (2024).  
 - Exploration et nettoyage de données internes  
 - Détection d’anomalies  
@@ -58,7 +60,7 @@ Script Python utilisant **Gurobi** pour la vérification automatique d’express
 
 ---
 
-### ♟️ [Jeu de Hex – Java](https://github.com/Peace-Salem/hex-game)
+### ♟️ [Jeu de Hex – Java](ProjetsAcademiques/jeu_hex)
 Implémentation du **jeu de Hex** avec intelligence artificielle intégrée.  
 - IA basée sur Minimax et heuristiques  
 - Interface graphique interactive  
@@ -71,6 +73,18 @@ Création d’une **base de données** et d’un **système de messagerie** pour
 - Conception des tables (utilisateurs, décisions, résultats)  
 - Intégration SQL/PHP  
 - Gestion des cycles de décision  
+
+---
+
+## 🎓 Projets Académiques
+
+- [Analyse de sentiment](ProjetsAcademiques/analyse_de_sentiment)  
+- [Data Mining JNNET](ProjetsAcademiques/data-mining_JNNET)  
+- [Jeu de Hex](ProjetsAcademiques/jeu_hex)  
+- [Optimisation combinatoire](ProjetsAcademiques/optimisation_combinatoire)  
+- [Stochastique salle d'entente](ProjetsAcademiques/stochastique_salle_entente)  
+- [Programmation contrainte salle cours](ProjetsAcademiques/programmation_contrainte_salle_cours)  
+- [Prediction de l'intention d'achat](ProjetsAcademiques/prediction_intention_achat)  
 
 ---
 
