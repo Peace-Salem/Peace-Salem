@@ -1,134 +1,194 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salem LUKAU MAKIESE – Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #1e90ff, #00bfff);
-            color: #fff;
-            line-height: 1.6;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 20px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-        }
-
-        h1, h2, h3 {
-            text-align: center;
-            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-        }
-
-        h1 { font-size: 2.5em; margin-bottom: 10px; }
-        h2 { font-size: 2em; margin-top: 40px; margin-bottom: 20px; }
-        h3 { font-size: 1.5em; margin-top: 20px; margin-bottom: 10px; }
-
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-
-        a { color: #fff; text-decoration: none; transition: transform 0.2s; }
-        a:hover { transform: scale(1.05); color: #ffeb3b; }
-
-        .badges { text-align: center; margin-bottom: 20px; }
-        .badges img { margin: 5px; vertical-align: middle; }
-
-        .stats img { display: block; margin: 20px auto; border-radius: 10px; }
-
-        .section { margin-bottom: 30px; }
-
-        p { margin-bottom: 10px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salem LUKAU MAKIESE – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #1e90ff, #00bfff);
+        color: #fff;
+    }
+    .container {
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 30px;
+    }
+    h1, h2, h3 {
+        text-align: center;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+    h1 { font-size: 2.5em; margin-bottom: 10px; }
+    h2 { font-size: 2em; margin-top: 40px; margin-bottom: 20px; }
+    h3 { font-size: 1.5em; margin-top: 20px; margin-bottom: 10px; }
+    .badges { text-align: center; margin-bottom: 30px; }
+    .badges img { margin: 5px; vertical-align: middle; }
+    .section { margin-bottom: 40px; }
+    .card {
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin: 15px 0;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .card h3 { margin-bottom: 10px; }
+    .card ul { padding-left: 20px; }
+    .card li { margin-bottom: 8px; }
+    a { color: #ffeb3b; text-decoration: none; transition: transform 0.2s; }
+    a:hover { transform: scale(1.05); }
+    .toggle-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease;
+    }
+    .toggle-btn {
+        cursor: pointer;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+        color: #ffeb3b;
+        text-decoration: underline;
+    }
+    .stats img { display: block; margin: 20px auto; border-radius: 15px; box-shadow: 0 8px 20px rgba(0,0,0,0.3); }
+    @media (max-width: 600px) {
+        .container { padding: 20px; }
+    }
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>👋 Salut ! Je suis <strong>Salem LUKAU MAKIESE</strong></h1>
-        <div class="badges">
-            <a href="https://github.com/Peace-Salem">
-                <img src="https://img.shields.io/github/followers/Peace-Salem?label=Follow&style=social" alt="GitHub followers">
-            </a>
-            <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">
-                <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn">
-            </a>
-            <a href="https://peace-salem.github.io/presentation-salem/">
-                <img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-1e90ff?logo=github" alt="Portfolio">
-            </a>
+<div class="container">
+    <h1>👋 Salut ! Je suis <strong>Salem LUKAU MAKIESE</strong></h1>
+
+    <div class="badges">
+        <a href="https://github.com/Peace-Salem">
+            <img src="https://img.shields.io/github/followers/Peace-Salem?label=Follow&style=social" alt="GitHub followers">
+        </a>
+        <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">
+            <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="LinkedIn">
+        </a>
+        <a href="https://peace-salem.github.io/presentation-salem/">
+            <img src="https://img.shields.io/badge/Portfolio-GitHub%20Pages-1e90ff?logo=github" alt="Portfolio">
+        </a>
+    </div>
+
+    <div class="section">
+        <h2>🎓 À propos de moi</h2>
+        <p>Étudiante en <strong>Master 2 MIASHS</strong> – parcours <strong>Actuariat & Ingénierie de Données</strong>, passionnée par la valorisation des données, la modélisation prédictive et le développement d’outils intelligents alliant mathématiques, informatique et finance.</p>
+        <p>💡 Objectif : allier <strong>rigueur scientifique</strong> et <strong>innovation technologique</strong> pour contribuer à des projets à fort impact dans la <strong>data science</strong>, l’<strong>actuariat</strong> et l’<strong>intelligence artificielle</strong>.</p>
+        <p>🌍 Basée entre <strong>France</strong> et <strong>République Démocratique du Congo</strong>.</p>
+    </div>
+
+    <div class="section">
+        <h2>💼 Stages & Expériences Clés</h2>
+
+        <div class="card experience">
+            <h3>🟦 Flop 15 – GENERALI France (2025)</h3>
+            <div class="toggle-content">
+                <ul>
+                    <li>Nettoyage et traitement des données de contrats d’assurance</li>
+                    <li>Calcul et suivi des KPI : S/P, fréquence, coût moyen, taux de résiliation</li>
+                    <li>Reporting automatisé via <strong>Power BI</strong></li>
+                    <li>Analyse de l’efficacité des plans d’action sur 36 mois</li>
+                </ul>
+                <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_generali.pdf">Télécharger le rapport GENERALI</a></p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
         </div>
 
-        <div class="section">
-            <h2>🎓 À propos de moi</h2>
-            <p>Étudiante en <strong>Master 2 MIASHS</strong> – parcours <strong>Actuariat & Ingénierie de Données</strong>, passionnée par la valorisation des données, la modélisation prédictive et le développement d’outils intelligents alliant mathématiques, informatique et finance.</p>
-            <p>💡 Mon objectif : allier <strong>rigueur scientifique</strong> et <strong>innovation technologique</strong> pour contribuer à des projets à fort impact dans la <strong>data science</strong>, l’<strong>actuariat</strong> et l’<strong>intelligence artificielle</strong>.</p>
-            <p>🌍 Basée entre <strong>la France</strong> et la <strong>République Démocratique du Congo</strong>.</p>
+        <div class="card experience">
+            <h3>🏦 Data Scientist – Rawbank RDC (2024)</h3>
+            <div class="toggle-content">
+                <ul>
+                    <li>Exploration et nettoyage de données internes</li>
+                    <li>Détection d’anomalies et modélisation par <strong>régression linéaire</strong></li>
+                    <li>Reporting automatisé en Python</li>
+                </ul>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
         </div>
 
-        <div class="section">
-            <h2>💼 Stages & Expériences Clés</h2>
+        <div class="card experience">
+            <h3>🧠 Analyse Neurocognitive – CRCM Marseille (2023)</h3>
+            <div class="toggle-content">
+                <ul>
+                    <li>Graphes probabilistes et modèles bayésiens</li>
+                    <li>Analyse des relations cognition-scolarité</li>
+                    <li>Visualisation des réseaux et identification des facteurs influençant l’état neurocognitif</li>
+                </ul>
+                <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_crcm.pdf">Télécharger le rapport CRCM</a></p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
+        </div>
+    </div>
 
-            <h3>🟦 <a href="https://github.com/Peace-Salem/flop15">Flop 15 – GENERALI France</a></h3>
-            <ul>
-                <li>Nettoyage et traitement des données de contrats d’assurance</li>
-                <li>Calcul et suivi des KPI : S/P, fréquence, coût moyen, taux de résiliation</li>
-                <li>Reporting automatisé via <strong>Power BI</strong></li>
-                <li>Analyse de l’efficacité des plans d’action sur 36 mois</li>
-            </ul>
-            <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_generali.pdf">Télécharger le rapport GENERALI</a></p>
+    <div class="section">
+        <h2>💻 Projets Académiques Marquants</h2>
 
-            <h3>🏦 <a href="https://github.com/Peace-Salem/neurocognitive-graph">Data Scientist – Rawbank RDC</a></h3>
-            <ul>
-                <li>Exploration et nettoyage de données internes</li>
-                <li>Détection d’anomalies et modélisation par <strong>régression linéaire</strong></li>
-                <li>Reporting automatisé en Python</li>
-            </ul>
-
-            <h3>🧠 <a href="https://github.com/Peace-Salem/neurocognitive-graph">Analyse Neurocognitive – CRCM Marseille</a></h3>
-            <ul>
-                <li>Graphes probabilistes et modèles bayésiens</li>
-                <li>Analyse des relations cognition-scolarité</li>
-                <li>Visualisation des réseaux et identification des facteurs influençant l’état neurocognitif</li>
-            </ul>
-            <p>📄 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/blob/main/RapportStage/rapport_stage_crcm.pdf">Télécharger le rapport CRCM</a></p>
+        <div class="card project">
+            <h3>🔍 Analyse de sentiment</h3>
+            <div class="toggle-content">
+                <p>Classification automatique des émotions exprimées dans des tweets via <strong>NLP et Machine Learning</strong> en Python.</p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
         </div>
 
-        <div class="section">
-            <h2>💻 Projets Académiques Marquants</h2>
+        <div class="card project">
+            <h3>📊 Optimisation combinatoire</h3>
+            <div class="toggle-content">
+                <p>Planification multi-année de projets avec contraintes budgétaires et coûts non linéaires.</p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
+        </div>
 
-            <h3>🔍 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/analyse_de_sentiment">Analyse de sentiment</a></h3>
-            <p>Classification automatique des émotions exprimées dans des tweets via <strong>NLP et Machine Learning</strong> en Python.</p>
+        <div class="card project">
+            <h3>🤖 Prediction de l'intention d'achat</h3>
+            <div class="toggle-content">
+                <p>Modélisation prédictive du comportement client via <strong>Machine Learning supervisé</strong>.</p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
+        </div>
 
-            <h3>📊 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/optimisation_combinatoire">Optimisation combinatoire</a></h3>
-            <p>Planification multi-année de projets avec contraintes budgétaires et coûts non linéaires.</p>
+        <div class="card project">
+            <h3>🤖 Système d’attente – magasin de réparation</h3>
+            <div class="toggle-content">
+                <p>Étude d’un système d’attente réel via processus stochastiques <strong>M/M/1</strong>.</p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
+        </div>
 
-            <h3>🤖 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/prediction_intention_achat">Prediction de l'intention d'achat</a></h3>
-            <p>Modélisation prédictive du comportement client via <strong>Machine Learning supervisé</strong>.</p>
+        <div class="card project">
+            <h3>♟️ Jeu de Hex – Java</h3>
+            <div class="toggle-content">
+                <p>Implémentation d’un jeu de stratégie avec IA intégrée (Minimax et heuristiques).</p>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
+        </div>
 
-            <h3>🤖 <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/stochastique_temps_entente">Système d’attente – magasin de réparation</a></h3>
-            <p>Étude d’un système d’attente réel via processus stochastiques <strong>M/M/1</strong>.</p>
-
-            <h3>♟️ <a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/jeu_hex">Jeu de Hex – Java</a></h3>
-            <p>Implémentation d’un jeu de stratégie avec IA intégrée (Minimax et heuristiques).</p>
-
+        <div class="card project">
             <h3>🔍 Autres Projets Académiques</h3>
-            <ul>
-                <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/data_mining_JNNET">Data Mining JNNET</a> – Extraction et analyse de données complexes (R, statistiques)</li>
-                <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/programmation_contrainte_salle_cours">Programmation contrainte salle cours</a> – Planification horaire avec Choco Solver</li>
-                <li><a href="https://github.com/Peace-Salem/soumission-python">Projet Easy.py</a> – Résolution de modèles d’optimisation complexes et automatisation des tests</li>
-                <li><a href="https://github.com/Peace-Salem/business-game">Business Game – Simulation d’entreprise</a> – Gestion de cycles décisionnels et suivi des résultats (SQL, Python)</li>
-            </ul>
+            <div class="toggle-content">
+                <ul>
+                    <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/data_mining_JNNET">Data Mining JNNET</a></li>
+                    <li><a href="https://github.com/Peace-Salem/RapportStageEtProjets/tree/main/ProjetsAcademiques/programmation_contrainte_salle_cours">Programmation contrainte salle cours</a></li>
+                    <li><a href="https://github.com/Peace-Salem/soumission-python">Projet Easy.py</a></li>
+                    <li><a href="https://github.com/Peace-Salem/business-game">Business Game – Simulation d’entreprise</a></li>
+                </ul>
+            </div>
+            <span class="toggle-btn">Voir plus</span>
         </div>
+    </div>
 
-        <div class="section">
-            <h2>🛠️ Compétences techniques</h2>
+    <div class="section">
+        <h2>🛠️ Compétences techniques</h2>
+        <div class="card">
             <ul>
                 <li><strong>Langages :</strong> Python, R, SQL, Java, HTML, CSS, PHP</li>
                 <li><strong>Outils & Logiciels :</strong> Git, Power BI, Anaconda, Eclipse, VS Code</li>
@@ -136,30 +196,51 @@
                 <li><strong>Autres :</strong> Optimisation combinatoire, Graphes probabilistes, Statistiques appliquées</li>
             </ul>
         </div>
+    </div>
 
-        <div class="section">
-            <h2>🎯 Objectifs & Centres d’intérêt</h2>
+    <div class="section">
+        <h2>🎯 Objectifs & Centres d’intérêt</h2>
+        <div class="card">
             <ul>
-                <li>📈 Actuariat & Finance durable : intégration des critères ESG dans la gestion d’actifs</li>
-                <li>🧮 Mathématiques appliquées : modélisation et simulation de systèmes complexes</li>
-                <li>🤝 Innovation & Impact : participation à des projets technologiques à vocation sociale</li>
+                <li>📈 Actuariat & Finance durable</li>
+                <li>🧮 Mathématiques appliquées</li>
+                <li>🤝 Innovation & Impact</li>
             </ul>
         </div>
+    </div>
 
-        <div class="section">
-            <h2>📫 Contact</h2>
+    <div class="section">
+        <h2>📫 Contact</h2>
+        <div class="card">
             <ul>
                 <li>Email : <a href="mailto:salemlukau43@gmail.com">salemlukau43@gmail.com</a></li>
                 <li>LinkedIn : <a href="https://www.linkedin.com/in/salem-lukau-makiese-3469251b8/">Mon Profil LinkedIn</a></li>
                 <li>Portfolio : <a href="https://peace-salem.github.io/presentation-salem/">GitHub Pages – Présentation</a></li>
             </ul>
         </div>
-
-        <div class="section stats">
-            <h2>📈 Statistiques GitHub</h2>
-            <img src="https://github-readme-stats.vercel.app/api?username=Peace-Salem&show_icons=true&theme=radical" alt="GitHub stats">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Peace-Salem&layout=compact&theme=radical" alt="Top Langs">
-        </div>
     </div>
+
+    <div class="section stats">
+        <h2>📈 Statistiques GitHub</h2>
+        <img src="https://github-readme-stats.vercel.app/api?username=Peace-Salem&show_icons=true&theme=radical" alt="GitHub stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Peace-Salem&layout=compact&theme=radical" alt="Top Langs">
+    </div>
+</div>
+
+<script>
+    const toggles = document.querySelectorAll('.toggle-btn');
+    toggles.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const content = btn.previousElementSibling;
+            if(content.style.maxHeight){
+                content.style.maxHeight = null;
+                btn.textContent = "Voir plus";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                btn.textContent = "Voir moins";
+            }
+        });
+    });
+</script>
 </body>
 </html>
