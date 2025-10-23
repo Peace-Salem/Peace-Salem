@@ -19,7 +19,7 @@ je me passionne pour la **valorisation des données** dans la prise de décision
 
 ## 💼 Stages & Expériences Clés
 
-### 🟦 [Flop 15 – GENERALI France](https://github.com/Peace-Salem/flop15)
+### 🟦 [Technicien d'Actuariat – GENERALI France](https://github.com/Peace-Salem/flop15)
 **Période : 2025 | Département : Direction Données & Approche Client**  
 **Objectif :** Suivi et évaluation de la performance des agents à travers l’analyse de données.  
 
