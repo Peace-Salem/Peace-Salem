@@ -8,8 +8,11 @@
 
 ## 🎓 À propos de moi
 
-Étudiante en **Master 2 MIASHS** – parcours **Actuariat & Ingénierie de Données**, passionnée par la **valorisation des données** et la **modélisation prédictive**.  
-Mon objectif : concevoir des **outils intelligents** combinant **mathématiques, informatique et finance**, et contribuer à des projets à fort impact en **data science, actuariat et intelligence artificielle**.
+Étudiante en **Master 2 MIASHS (Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales)** – parcours **Actuariat & Ingénierie de Données**,  
+je m’intéresse à la **valorisation des données** dans la prise de décision, la **modélisation prédictive**, et la **conception d’outils intelligents** alliant **mathématiques, informatique et finance**.
+
+💡 Mon objectif : allier **rigueur scientifique** et **innovation technologique** pour contribuer à des projets à fort impact dans les domaines de la **data science**, de l’**actuariat** et de l’**intelligence artificielle**.
+
 
 🌍 Basé entre **la France** et la **République Démocratique du Congo**.
 
